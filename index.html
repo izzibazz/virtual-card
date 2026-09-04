@@ -83,23 +83,31 @@
             text-align: left;
         }
         .letter-text {
-            font-size: 1.05rem;
+            font-size: 1.0rem;
             line-height: 1.6;
             color: #4a4a4a;
             white-space: pre-line;
         }
         .letter-header {
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             color: #d4a373;
-            margin-bottom: 15px;
+            margin-bottom: 5px;
             font-weight: bold;
         }
         .letter-footer {
-            margin-top: 15px;
+            margin-top: 5px;
             font-style: italic;
             text-align: right;
             color: #d4a373;
         }
+	.birthday-date {
+    	    position: absolute;
+    	    top: 18px;
+    	    right: 20px;
+    	    font-size: 0.8rem;
+    	    color: #b89a78;
+    	    font-style: italic;
+	}
         @keyframes pulse {
             0% { transform: translateX(-50%) scale(1); }
             50% { transform: translateX(-50%) scale(1.03); }
@@ -118,22 +126,28 @@
             </div>
             
             <div class="card-back">
+    		<div class="birthday-date">September 6, 2026</div>
                 <div>
-                    <div class="letter-header">Chère Lucy,</div>
+                    <div class="letter-header">Lucy,</div>
                     <div class="letter-text">
                         Happy Birthday! 🎂
-			
 
-                        Since I didn't have your physical mailbox address, I wanted to send this digital card across the web straight to your screen instead. 
-
-                        May this year bring you endless joy, incredible adventures, and and success for all the hard work you do! Take care of yourself, you're amazing!
+                        May this new year of your life bring you endless joy and unexpected adventures. 
+			Please, enjoy the last rays of sunshine that will soon give their colors to a stunning blazing landscape. And if it makes you smile, don’t let it fade before next year.
+			I wish you lots of success with all the hard work you do, here is a small something to support you along the way:
                     </div>
                 </div>
-                <div class="letter-footer">See you, <br> Basile</div>
-            </div>
 
-        </div>
-    </div>
+		<div style="text-align: center; margin-top: 5px; margin-bottom: 5px;">
+        		<a href="https://www.youtube.com/" target="_blank" style="display: inline-block; background-color: #ff9900; color: #111111; text-decoration: none; padding: 12px 24px; border-radius: 25px; font-family: 'Arial', sans-serif; font-size: 0.95rem; font-weight: bold; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: transform 0.2s;">
+            		🎁 Cheers! 🎁
+        		</a>
+    		</div>
+		<div class="letter-footer">Take care, <br> Basile</div>
+            	</div>
+
+        	</div>
+    	</div>
 
     <script>
         function flipCard() {
